@@ -1,0 +1,18 @@
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://wallpapercave.com/wp/wp1874191.jpg");
+  background-size: cover;
+  padding: 20px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
